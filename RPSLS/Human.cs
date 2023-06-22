@@ -12,9 +12,9 @@ namespace RPSLS
        
         public Human(string name) : base(name)
         {
-            this.name = name;
-            gestures = new List<string> { "rock", "paper", "scissors", "lizard", "Spock" };
-            score = 0;
+            //this.name = name;
+            //gestures = new List<string> { "rock", "paper", "scissors", "lizard", "Spock" };
+            //score = 0;
         }
 
         public void EnterName()
@@ -33,25 +33,6 @@ namespace RPSLS
 
 
 
-        //    if (playerOne != null && playerTwo != null)
-        //    {
-        //        string playerOneGesture = playerOneGesture.ChosenGesture;
-        //        string playerTwoGesture = playerTwoGesture.ChosenGesture;
-        //        if (playerOneGesture == playerTwoGesture)
-        //        {
-        //            Console.WriteLine("Draw!");
-        //        }
-        //        else if (playerOneGesture == "Rock" && (playerTwoGesture == "Scissors" || playerTwoGesture == "Lizard") || (playerOneGesture == "Scissors" && (playerTwoGesture == "Paper" || playerTwoGesture == "Lizard")) || (playerOneGesture == "Paper" && (playerTwoGesture == "Rock" || playerTwoGesture == "Spock")) || (playerOneGesture == "Spock" && (playerTwoGesture == "Rock" || playerTwoGesture == "Scissors")))
-        //        {
-        //            Console.WriteLine("Player 1 wins!");
-        //            scorePlayerOne++; ;
-        //        }
-        //        else
-        //        {
-        //            Console.WriteLine("Player 2 wins!");
-        //            scorePlayerTwo++;
-        //        }
-        //    }
-        //}
+       
     }         
 }

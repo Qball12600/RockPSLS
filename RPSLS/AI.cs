@@ -11,7 +11,7 @@ namespace RPSLS
 
         public AI(string name) : base(name)
         {
-            this.name = "Jarvis";
+            //this.name = name;
             //this.gestures = new List<string> { "rock", "paper", "scissors", "lizard", "Spock" };
             //this.score = 0;
         }
